@@ -10,99 +10,108 @@
     <title>Beach Bumz</title>
 </head>
 <body>
-    <header> <!--Display in 2 grid-->
-        <h1>BeachBumz</h1>
-        <nav>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fa-solid fa-bars"></i>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#home">Home</a></li>
-                    <li><a class="dropdown-item" href="#Calendar">Calendar</a></li>
-                    <li><a class="dropdown-item" href="#Posts">Posts</a></li>
-                    <li><a class="dropdown-item" href="#SignUp/Login">SignUp/Login</a></li>
-                </ul>
-            </div>
-        </nav>
+    <div class="page-top">
+        <header> <!--Display in 2 grid-->
+            <h1>BeachBumz</h1>
+            <nav>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bars"></i>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#" aria-label="Home Page">Home</a></li>
+                        <li><a class="dropdown-item" href="calendar.html" aria-label="Calendar page">Calendar</a></li>
+                        <li><a class="dropdown-item" href="posts.html" aria-label="Blog Posts">Posts</a></li>
+                        <li><a class="dropdown-item" href="#SignUp/Login" aria-label="Signup/Login">SignUp/Login</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
         <img class="hero-image" src="/assets/images/beach-scene.webp">
-    </header>
-
+        
     <main> <!--Display equal grid with the aside/calendar-->
-        <section class="intro">
-            <p>At BeachBumz, we celebrate the beauty of the coast, the serenity of the waves, and the endless wonders that
-            beach life offers. Whether you're a passionate surfer, a tranquil sunbather, or someone who simply finds solace in the
-            sound of the ocean, this is your community. Join us in exploring, sharing, and preserving the magic of our beloved
-            shores</p>
+        <div class="central-content">
+            <div class="intro">
+                <section>
+                    <p>At BeachBumz, we celebrate the beauty of the coast, the serenity of the waves, and the endless wonders that
+                    beach life offers. Whether you're a passionate surfer, a tranquil sunbather, or someone who simply finds solace in the
+                    sound of the ocean, this is your community. Join us in exploring, sharing, and preserving the magic of our beloved
+                    shores</p>
 
-            <p>Founded by a group of dedicated beach enthusiasts we aim to connect individuals with a shared
-            love for the seaside. Our goal is to cultivate a diverse community where beach lovers can share their experiences,
-            stories, tips, and insights. We aim to inspire, educate, and spread awareness about the importance of preserving our
-            beaches and oceans.</p>
-        </section>
+                    <p>Founded by a group of dedicated beach enthusiasts we aim to connect individuals with a shared
+                    love for the seaside. Our goal is to cultivate a diverse community where beach lovers can share their experiences,
+                    stories, tips, and insights. We aim to inspire, educate, and spread awareness about the importance of preserving our
+                    beaches and oceans.</p>
+                </section>
+            </div>
 
-        <aside>
-            <h1>Upcoming Beach Meetup Events</h1>
-            <ul>
-                <li>
-                    <strong>Litter Picking Event</strong><br>
-                    <strong>Date:</strong> November 10, 2023<br>
-                    <details>
-                        <summary>Click to show details</summary>
-                        <strong>Time:</strong> 9:00 AM - 12:00 PM<br>
-                        <strong>Location:</strong> Oceanfront Park<br>
-                        <strong>Description:</strong> Join us in keeping our beaches clean! We will gather at Oceanfront Park to
-                        pick up litter and preserve the beauty of our coastline.
-                    </details>
-                </li>
-                <br>
-                    <li>
-                        <strong>Beach Volleyball Tournament</strong><br>
-                        <strong>Date:</strong> November 15, 2023<br>
-                        <details>
-                            <summary>Click to show details</summary>
-                            <strong>Time:</strong> 10:00 AM - 3:00 PM<br>
-                            <strong>Location:</strong> Sunset Beach<br>
-                            <strong>Description:</strong> Calling all volleyball enthusiasts! Participate in a fun-filled beach volleyball
-                            tournament at Sunset Beach. Open to players of all levels.
-                        </details>
-                    </li>
-                    <br>
-                    <li>
-                        <strong>Surfing Competition</strong><br>
-                        <strong>Date:</strong> November 20, 2023<br>
-                        <details>
-                            <summary>Click to show details</summary>
-                            <strong>Time:</strong> 8:00 AM - 4:00 PM<br>
-                            <strong>Location:</strong> Crystal Cove<br>
-                            <strong>Description:</strong> Witness skilled surfers in action at the annual Surfing Competition taking place
-                            at Crystal Cove. Food and entertainment available for attendees.
-                        </details>
-                    </li>
-                    <br>
-                    <li>
-                        <strong>Family Sandcastle Building Contest</strong><br>
-                        <strong>Date:</strong> November 25, 2023<br>
-                        <details>
-                            <summary>Click to show details</summary>
-                            <strong>Time:</strong> 11:00 AM - 2:00 PM<br>
-                            <strong>Location:</strong> Coral Bay Beach<br>
-                            <strong>Description:</strong> Bring your family and showcase your creativity at the Sandcastle Building Contest
-                            on Coral Bay Beach. Prizes for the most innovative creations!
-                        </details>
-                    </li>
-                    <br>
-                    <li>
-                        <strong>Sunset Yoga by the Shore</strong><br>
-                        <strong>Date:</strong> November 30, 2023<br>
-                        <details>
-                            <summary>Click to show details</summary>
-                            <strong>Time:</strong> 5:30 PM - 7:00 PM<br>
-                            <strong>Location:</strong> Moonlight Beach<br>
-                            <strong>Description:</strong> Wind down your day with a rejuvenating yoga session at Moonlight Beach. Experience
-                            relaxation and serenity by the ocean.
-                        </details>
-                    </li>
-            </ul>
+            <div class="calendar">
+                <aside>
+                    <h1>Upcoming Events</h1>
+                    <ul>
+                        <li>
+                            <strong>Litter Picking Event</strong><br>
+                            <strong>Date:</strong> November 10, 2023<br>
+                            <details>
+                                <summary>Click for info</summary>
+                                <strong>Time:</strong> 9:00 AM - 12:00 PM<br>
+                                <strong>Location:</strong> Oceanfront Park<br>
+                                <strong>Description:</strong> Join us in keeping our beaches clean! We will gather at Oceanfront Park to
+                                pick up litter and preserve the beauty of our coastline.
+                            </details>
+                        </li>
+                        <br>
+                            <li>
+                                <strong>Beach Volleyball Tournament</strong><br>
+                                <strong>Date:</strong> November 15, 2023<br>
+                                <details>
+                                    <summary>Click for info</summary>
+                                    <strong>Time:</strong> 10:00 AM - 3:00 PM<br>
+                                    <strong>Location:</strong> Sunset Beach<br>
+                                    <strong>Description:</strong> Calling all volleyball enthusiasts! Participate in a fun-filled beach volleyball
+                                    tournament at Sunset Beach. Open to players of all levels.
+                                </details>
+                            </li>
+                            <br>
+                                <li>
+                                    <strong>Surfing Competition</strong><br>
+                                    <strong>Date:</strong> November 20, 2023<br>
+                                    <details>
+                                        <summary>Click for info</summary>
+                                        <strong>Time:</strong> 8:00 AM - 4:00 PM<br>
+                                        <strong>Location:</strong> Crystal Cove<br>
+                                        <strong>Description:</strong> Witness skilled surfers in action at the annual Surfing Competition taking place
+                                        at Crystal Cove. Food and entertainment available for attendees.
+                                    </details>
+                                </li>
+                                <br>
+                                    <li>
+                                        <strong>Family Sandcastle Building Contest</strong><br>
+                                        <strong>Date:</strong> November 25, 2023<br>
+                                        <details>
+                                            <summary>Click for info</summary>
+                                            <strong>Time:</strong> 11:00 AM - 2:00 PM<br>
+                                            <strong>Location:</strong> Coral Bay Beach<br>
+                                            <strong>Description:</strong> Bring your family and showcase your creativity at the Sandcastle Building Contest
+                                            on Coral Bay Beach. Prizes for the most innovative creations!
+                                        </details>
+                                    </li>
+                                    <br>
+                                        <li>
+                                            <strong>Sunset Yoga by the Shore</strong><br>
+                                            <strong>Date:</strong> November 30, 2023<br>
+                                            <details>
+                                                <summary>Click for info</summary>
+                                                <strong>Time:</strong> 5:30 PM - 7:00 PM<br>
+                                                <strong>Location:</strong> Moonlight Beach<br>
+                                                <strong>Description:</strong> Wind down your day with a rejuvenating yoga session at Moonlight Beach. Experience
+                                                relaxation and serenity by the ocean.
+                                            </details>
+                                        </li>
+                    </ul>
+            </div>
+        </div>
         </aside>
 
         <article>
