@@ -3,6 +3,8 @@ body {
     margin: 1px;
 }
 
+/*Header and Nav Bar*/
+
 /*Central Content*/
 
 .central-content {
@@ -22,4 +24,12 @@ body {
 
 .calendar ul {
     list-style-type: none;
+}
+
+/*Footer*/
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none
 }
