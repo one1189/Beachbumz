@@ -5,31 +5,47 @@ body {
 
 /*Header and Nav Bar*/
 
+.page-top {
+    width: 100%;
+}
+
+.header-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 /*Central Content*/
 
-.central-content {
-    display: flex;
-    flex-direction: row;
-    margin: 5px;
-}
-
 .intro {
-    width: 50%;
-}
-
-.calendar {
-    width: 50%;
+    margin: 5px;
     text-align: center;
+    height: 100%;
+    width: auto;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 5%;
 }
 
-.calendar ul {
-    list-style-type: none;
-}
+/*Carousel*/
+
 
 /*Footer*/
 
+footer {
+    text-align: center;
+}
+
 ul {
     display: flex;
-    justify-content: space-evenly;
-    list-style-type: none
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 24px;
+    padding: 0;
 }
